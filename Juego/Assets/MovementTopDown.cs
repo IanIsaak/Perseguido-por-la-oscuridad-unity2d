@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MovementTopDown : MonoBehaviour
 {
+    public Joystick joystick;
     [SerializeField] private float movementSpeed;
     [SerializeField] private Vector2 direction;
     private Rigidbody2D rb2D;
@@ -14,7 +15,7 @@ public class MovementTopDown : MonoBehaviour
     }
     private void Update()
     {
-        direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
+        direction = joystick.Direction;
     }
     private void FixedUpdate()
     {
