@@ -123,6 +123,37 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &31693134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 31693135}
+  m_Layer: 0
+  m_Name: Enemy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &31693135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31693134}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.32713985, y: -2.6876254, z: -0.033408117}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &76964371
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,6 +349,93 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &187491542
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 187491544}
+  - component: {fileID: 187491543}
+  m_Layer: 0
+  m_Name: A*
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &187491543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187491542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78396926cbbfc4ac3b48fc5fc34a87d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  data:
+    dataString: UEsDBBQAAAgIAACQn+vYOGEpcwIAAC4FAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1z2jAU/CuMzoWxAwHcW0sI6SEJU9rJxRdZesYaZMkjyQGS4b9XT7axQ7kg7/vaXT37kwhlK2BOm40R/FlzIN9HBM/k26gPPsGJ7rXaiQ/oct4EdwUm0ZDzmzqhPR5jmdUlOCPYD7WXmBx5sFYi16Zc8z2stHXWwzmVFnzIaIfVykOfI3Lyf+MES87+dLfA04c/JdHo4o8MlAMzSI0nSfjdLduS5WQWgLYuntzHSRIvF8v1OJqHHrVikpYVcBTUt5p3Q6dxSFNeapuBspiWUtiWJ3HnKviwqwowgEZwQb3swA3TCxD7wqGEYe1rnltwrSeGnh+E8e41TclP3VhaUntoaL1TWeOY+Swwano+/xceN4Rzo8unbmwc4QhXCHb4Tc+MWjewfAg/fOVdqyOVB5pJeCtAveiN0bXiPuhMjaW1hbuH/vGqbFUAO/R4Q/UGrKve7c7s7n5RwyWIP62kKDMMTWYNsJM6uB3WAoy/l1+ecFga27bwKLL4a+EP3Q+3qw08CmOdD7UqFdLLdG0wlayDZ6imdittFAS4JV2BotKdt76Nu73Bm9hg7E3kkeJ71A5vY93rcVMS4D4/im5CW328XpYt9PEZbPFaOykU9KQx8OJ9WmmlmgUbetKV7WqTUzYo29eCf10tspjO6DJb3Gd5ktEkYWOWTfMom/JZlM/5MrsnYfeE8jqp3DZEW3v8ram+ufJ71n1eRhtDq7Ds3NDjRnyUemC5ULneMQOgXpsOV+Jg/BD/TvI1F96gHTgnVLhv8pkSqdkBeHptlAal65MzNO27pKQS79ohkpJV+J6kBOHrLm8NvAs44vCu2YVc/gFQSwMEFAAACAgAAJCf62PpkcRtAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTXUVBKL0osyCgGihiCOKWZKSB2tJK5sUmiRZK5aVKaZVKipWWybnKScZpBknGKiUGaWYpFkqlSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAAJCf69g4YSlzAgAALgUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAAJCf62PpkcRtAAAAeAAAAAkAJAAAAAAAAAAAAAAAwAIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAAB4AwAAAAA=
+    upgradeData: 
+    file_cachedStartup: {fileID: 0}
+    data_cachedStartup: 
+    cacheStartup: 0
+  showNavGraphs: 1
+  showUnwalkableNodes: 1
+  debugMode: 0
+  debugFloor: 0
+  debugRoof: 1
+  manualDebugFloorRoof: 0
+  showSearchTree: 0
+  unwalkableNodeDebugSize: 0.3
+  logPathResults: 1
+  maxNearestNodeDistance: 100
+  scanOnStartup: 1
+  fullGetNearestSearch: 0
+  prioritizeGraphs: 0
+  prioritizeGraphsLimit: 1
+  colorSettings:
+    _SolidColor: {r: 0.11764706, g: 0.4, b: 0.7882353, a: 0.9}
+    _UnwalkableNode: {r: 1, g: 0, b: 0, a: 0.5}
+    _BoundsHandles: {r: 0.29, g: 0.454, b: 0.741, a: 0.9}
+    _ConnectionLowLerp: {r: 0, g: 1, b: 0, a: 0.5}
+    _ConnectionHighLerp: {r: 1, g: 0, b: 0, a: 0.5}
+    _MeshEdgeColor: {r: 0, g: 0, b: 0, a: 0.5}
+    _AreaColors:
+    - {r: 0, g: 0, b: 0, a: 0}
+  tagNames: []
+  heuristic: 2
+  heuristicScale: 1
+  threadCount: 1
+  maxFrameTime: 10
+  batchGraphUpdates: 0
+  graphUpdateBatchingInterval: 0.2
+  euclideanEmbedding:
+    mode: 0
+    seed: 0
+    pivotPointRoot: {fileID: 0}
+    spreadOutCount: 1
+  showGraphs: 1
+--- !u!4 &187491544
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187491542}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &221593313
 GameObject:
   m_ObjectHideFlags: 0
@@ -414,7 +532,7 @@ GameObject:
   - component: {fileID: 238647241}
   - component: {fileID: 238647242}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: WachterGFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -592,6 +710,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7268b2799c0e79b42b4482cc781332c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 2
+  roamRadius: 10
 --- !u!1 &571384396
 GameObject:
   m_ObjectHideFlags: 0
@@ -37566,7 +37686,7 @@ GameObject:
   - component: {fileID: 1504071173}
   - component: {fileID: 1504071172}
   - component: {fileID: 1504071174}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41449,7 +41569,7 @@ Transform:
   m_GameObject: {fileID: 1650298950}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0005234331, y: -3.9164755, z: -10}
+  m_LocalPosition: {x: -0.00052316487, y: -3.9164755, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -41575,7 +41695,7 @@ Transform:
   m_GameObject: {fileID: 2037462049}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0005234331, y: -3.9164755, z: -10}
+  m_LocalPosition: {x: -0.00052316487, y: -3.9164755, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -41603,6 +41723,7 @@ MonoBehaviour:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 187491544}
   - {fileID: 1650298953}
   - {fileID: 830469320}
   - {fileID: 76964376}
@@ -41611,3 +41732,4 @@ SceneRoots:
   - {fileID: 221593315}
   - {fileID: 855466500}
   - {fileID: 780225570}
+  - {fileID: 31693135}
