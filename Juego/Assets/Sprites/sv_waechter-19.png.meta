@@ -1,0 +1,1315 @@
+fileFormatVersion: 2
+guid: bb8bbe191a8cd464c844f01bb00cb8f3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sv_waechter-19_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 321
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930816205c1bf5c4ea606cf8a62bf792
+      internalID: -1363207844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 321
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d683e99b1afa6134182d1fef2b7f8ec5
+      internalID: -421002681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 321
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994c4b55462d9f74ba7b6bef1885271f
+      internalID: 1168994383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 321
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52367a7840a23314aadc0d8f4084a0d9
+      internalID: 593092619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_4
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 321
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c8888b00da3e0459eedf9515c05fcc
+      internalID: 105537525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_5
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 321
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1ced2eddb4bbe49adaf4e3f7be864c
+      internalID: 54098856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_6
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 321
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb8fc6410a6ca44b8c3cda208a321b5
+      internalID: -834069899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_7
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 321
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f62bd6fb74f734b947654bec986f42
+      internalID: 2059561857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_8
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 321
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f113091f02b144493ba625d9e9fc15
+      internalID: 223847024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 257
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0cbe169cf1651244885d93bfcec73e4
+      internalID: -818912508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 257
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba2b4245e094c34b98773b1fcb71340
+      internalID: 1356415107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 257
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb8fcc9098d02c498aaac95ebcfe02c
+      internalID: -338821378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_12
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 257
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520ba18819634d24aab32f939f2ed61d
+      internalID: 1421318187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_13
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 257
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51dac7c5b0eab9d41b401777ff21a55a
+      internalID: 1832800376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_14
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 257
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30551413326d8d94a8160c2501673b01
+      internalID: 1817590838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_15
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 257
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a041a3e5a5f4b8439a1b3aa67b2da77
+      internalID: 1458383779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_16
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 257
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a86d7e900317d4c9a2a31715e19b0d
+      internalID: 801809014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_17
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 257
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55e6fac329dcc645b57384beb35c599
+      internalID: 823584662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 193
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81464d92752ccf1458adc8e00f1a2a94
+      internalID: -189898850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 193
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5e29a8afc03dc4492cdd7ab8d1ce6b
+      internalID: 588945708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 193
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4612b0fda2f4a424db069e53f7ae5737
+      internalID: 1251042592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_21
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 193
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8914a05a5b63d4c832838e1f4d8871
+      internalID: -1220888791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_22
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 193
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd06ca259d296be45b2d42ebd0c654df
+      internalID: 1255133561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_23
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 193
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5e9161ed5a8a54a9faa9929f10c93b
+      internalID: -210530535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_24
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 193
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec346f17098ed54db733a29fee0940a
+      internalID: 348999570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_25
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 193
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e4cdfd53414d348861dee5f4d0dab1
+      internalID: -717542687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_26
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 193
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840560a726175fa4f8bdaa187b7ef2a4
+      internalID: -420018594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 129
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111ddbcd13726424aa95dbfa73c00b8e
+      internalID: 570011113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 129
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90bac768f9521c74bab74f938ca01e40
+      internalID: 865151869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_29
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 129
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b110ac5a0dcdc645948ba27984d78b8
+      internalID: -551940748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_30
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 129
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df49f749448ea7a428ce7f82bcf3e900
+      internalID: -1612921484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_31
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 129
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91d2c32364560e4faad7447bf46e524
+      internalID: 582689101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_32
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 129
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348a7a241edea364ca0876fed4758067
+      internalID: -1576177097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_33
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 129
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c8f8a6e8b6f9446a399dde8ae181ce
+      internalID: 360232227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_34
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 129
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d076f41c4cfb94e892d1e1c14828c0
+      internalID: -1018509963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_35
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 129
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6c70db68a0019458c795cf18109bd2
+      internalID: 115246136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6666fa49af713c24ba1f9a9b940603d5
+      internalID: -548558230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_37
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 65
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932e01e39b0d3c643b84d093376fa1fe
+      internalID: -1784182816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 65
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7361a60758e5c43b0b0ec0726c2b13
+      internalID: 810521593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_39
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 65
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a82ffb26cdc734eb03832cce5dfacb
+      internalID: -1726650561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_40
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 65
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7733ec31409a190449970515684818d5
+      internalID: -288762771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_41
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 65
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc11022d56e3c424eada20def0e5e2ac
+      internalID: -553530875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_42
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 65
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28357d303b9f9a4080d5c2b7d55bca0
+      internalID: -1146672586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_43
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 65
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97699123d88e3248b4c3911c412ce93
+      internalID: 1104418173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_44
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 65
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa520636b39d50244a7adcdc6bf695a4
+      internalID: 1900423322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75eab77a9023e884c8fe24a30e805e98
+      internalID: -1554099042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f1525694c9bbb4da8f7f62d69d2435
+      internalID: -25874635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_47
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739239a6e3ef668489fee14774e2f35b
+      internalID: 1874651410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_48
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b35a6c1ccdb88740a0adc19cc6b455d
+      internalID: 2030473604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_49
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49391a4b88eabcf468cb8718c7b5c9f3
+      internalID: -585411794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_50
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5d76783e96a654a82d0d8088628b73
+      internalID: -1930594344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_51
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681a330e3b8b2c64da607442e2ee5615
+      internalID: -36461366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_52
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fa2cef7e66d6547bd773d8d4be5dff
+      internalID: -1330646341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sv_waechter-19_53
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1
+        width: 191
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65498f6bf1f88834e9b4958cd1b30064
+      internalID: -127459670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sv_waechter-19_0: -1363207844
+      sv_waechter-19_1: -421002681
+      sv_waechter-19_10: 1356415107
+      sv_waechter-19_11: -338821378
+      sv_waechter-19_12: 1421318187
+      sv_waechter-19_13: 1832800376
+      sv_waechter-19_14: 1817590838
+      sv_waechter-19_15: 1458383779
+      sv_waechter-19_16: 801809014
+      sv_waechter-19_17: 823584662
+      sv_waechter-19_18: -189898850
+      sv_waechter-19_19: 588945708
+      sv_waechter-19_2: 1168994383
+      sv_waechter-19_20: 1251042592
+      sv_waechter-19_21: -1220888791
+      sv_waechter-19_22: 1255133561
+      sv_waechter-19_23: -210530535
+      sv_waechter-19_24: 348999570
+      sv_waechter-19_25: -717542687
+      sv_waechter-19_26: -420018594
+      sv_waechter-19_27: 570011113
+      sv_waechter-19_28: 865151869
+      sv_waechter-19_29: -551940748
+      sv_waechter-19_3: 593092619
+      sv_waechter-19_30: -1612921484
+      sv_waechter-19_31: 582689101
+      sv_waechter-19_32: -1576177097
+      sv_waechter-19_33: 360232227
+      sv_waechter-19_34: -1018509963
+      sv_waechter-19_35: 115246136
+      sv_waechter-19_36: -548558230
+      sv_waechter-19_37: -1784182816
+      sv_waechter-19_38: 810521593
+      sv_waechter-19_39: -1726650561
+      sv_waechter-19_4: 105537525
+      sv_waechter-19_40: -288762771
+      sv_waechter-19_41: -553530875
+      sv_waechter-19_42: -1146672586
+      sv_waechter-19_43: 1104418173
+      sv_waechter-19_44: 1900423322
+      sv_waechter-19_45: -1554099042
+      sv_waechter-19_46: -25874635
+      sv_waechter-19_47: 1874651410
+      sv_waechter-19_48: 2030473604
+      sv_waechter-19_49: -585411794
+      sv_waechter-19_5: 54098856
+      sv_waechter-19_50: -1930594344
+      sv_waechter-19_51: -36461366
+      sv_waechter-19_52: -1330646341
+      sv_waechter-19_53: -127459670
+      sv_waechter-19_6: -834069899
+      sv_waechter-19_7: 2059561857
+      sv_waechter-19_8: 223847024
+      sv_waechter-19_9: -818912508
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
