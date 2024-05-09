@@ -158,7 +158,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   joystick: {fileID: 867247874}
   movementSpeed: 3
-  direction: {x: 0, y: 0}
 --- !u!50 &76964373
 Rigidbody2D:
   serializedVersion: 4
@@ -222,7 +221,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.28125, y: 0.40625}
+    oldSize: {x: 0.375, y: 0.4375}
     newSize: {x: 0.375, y: 0.4375}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -292,7 +291,7 @@ Transform:
   m_GameObject: {fileID: 76964371}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0005236417, y: -4.306475, z: 0}
+  m_LocalPosition: {x: 0.52, y: -3.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7547,7 +7546,7 @@ Tilemap:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -31, y: -5, z: 0}
   m_Size: {x: 57, y: 27, z: 1}
-  m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
+  m_TileAnchor: {x: 1, y: 1, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
     e00: 1
@@ -37343,7 +37342,7 @@ Tilemap:
   m_Color: {r: 0, g: 0, b: 0, a: 0.52156866}
   m_Origin: {x: -39, y: -12, z: 0}
   m_Size: {x: 73, y: 40, z: 1}
-  m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
+  m_TileAnchor: {x: 1, y: 1, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
     e00: 1
@@ -41114,7 +41113,7 @@ Tilemap:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -32, y: -6, z: 0}
   m_Size: {x: 59, y: 29, z: 1}
-  m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
+  m_TileAnchor: {x: 1, y: 1, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
     e00: 1
@@ -41257,7 +41256,7 @@ Transform:
   m_GameObject: {fileID: 1650298950}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0005232841, y: -3.9164755, z: -10}
+  m_LocalPosition: {x: 0.52000046, y: -2.8600004, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -41383,7 +41382,7 @@ Transform:
   m_GameObject: {fileID: 2037462049}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0005232841, y: -3.9164755, z: -10}
+  m_LocalPosition: {x: 0.52000046, y: -2.8600004, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
