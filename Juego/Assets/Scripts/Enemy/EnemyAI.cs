@@ -6,43 +6,42 @@ using Pathfinding;
 public class EnemyAI : MonoBehaviour
 {
     public Transform target;
-
     public float speed = 200f;
     public float nextWaypointDistance = 3f;
 
-    Path path;
-    int currentWaypoint = 0;
-    bool reachedEndOfPath = false;
+    private Path path;
+    private int currentWaypoint = 0;
+    private bool reachedEndOfPath = false;
+    private bool waiting = false;
 
-    Seeker seeker;
-    Rigidbody2D rb;
+    private Seeker seeker;
+    private Rigidbody2D rb;
+
+    private enum State
+    {
+        Roaming,
+        ChaseTarget
+    }
+
+    private State state;
+    private Vector3 roamingPosition;
+    public float roamRadius = 10f;
 
     void Start()
     {
         seeker = GetComponent<Seeker>();
         rb = GetComponent<Rigidbody2D>();
+        state = State.Roaming;
 
-        InvokeRepeating("UpdatePath", 0f, .5f);
-    }
-
-    private void UpdatePath()
-    {
-        if (seeker.IsDone())
-            seeker.StartPath(rb.position, target.position, OnPathComplete);
-    }
-
-    void OnPathComplete(Path p)
-    {
-        if (!p.error)
-        {
-            path = p;
-            currentWaypoint = 0;
-        }
+        GenerateRoamingPosition();
+        seeker.StartPath(rb.position, roamingPosition, OnPathComplete);
     }
 
     void FixedUpdate()
     {
-        if (path ==  null)
+        FindTarget();
+
+        if (path == null || waiting)
         {
             return;
         }
@@ -50,8 +49,10 @@ public class EnemyAI : MonoBehaviour
         if (currentWaypoint >= path.vectorPath.Count)
         {
             reachedEndOfPath = true;
+            StartCoroutine(WaitAndGenerateNewPath());
             return;
-        } else
+        }
+        else
         {
             reachedEndOfPath = false;
         }
@@ -67,5 +68,38 @@ public class EnemyAI : MonoBehaviour
         {
             currentWaypoint++;
         }
+    }
+
+    private void GenerateRoamingPosition()
+    {
+        roamingPosition = (Vector2)transform.position + Random.insideUnitCircle * roamRadius;
+    }
+
+    private void FindTarget()
+    {
+        float targetRange = 6f;
+        if (Vector3.Distance(transform.position, target.position) < targetRange)
+        {
+            state = State.ChaseTarget;
+            seeker.StartPath(rb.position, target.position, OnPathComplete);
+        }
+    }
+
+    void OnPathComplete(Path p)
+    {
+        if (!p.error)
+        {
+            path = p;
+            currentWaypoint = 0;
+        }
+    }
+
+    private IEnumerator WaitAndGenerateNewPath()
+    {
+        waiting = true;
+        yield return new WaitForSeconds(2);
+        GenerateRoamingPosition();
+        seeker.StartPath(rb.position, roamingPosition, OnPathComplete);
+        waiting = false;
     }
 }
