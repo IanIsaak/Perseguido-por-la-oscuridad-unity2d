@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Pathfinding;
+using Unity.VisualScripting;
 
 public class EnemyAI : MonoBehaviour
 {
@@ -12,7 +13,6 @@ public class EnemyAI : MonoBehaviour
     private Path path;
     private int currentWaypoint = 0;
     private bool reachedEndOfPath = false;
-    private bool waiting = false;
 
     private Seeker seeker;
     private Rigidbody2D rb;
@@ -33,15 +33,40 @@ public class EnemyAI : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         state = State.Roaming;
 
-        GenerateRoamingPosition();
-        seeker.StartPath(rb.position, roamingPosition, OnPathComplete);
+        InvokeRepeating("UpdatePath", 0f, .5f);
+    }
+
+    private void UpdatePath()
+    {
+        if (seeker.IsDone())
+        {
+            switch (state)
+            {
+                case State.Roaming:
+                    GenerateRoamingPosition();
+                    seeker.StartPath(rb.position, roamingPosition, OnPathComplete);
+                    break;
+                case State.ChaseTarget:
+                    seeker.StartPath(rb.position, target.position, OnPathComplete);
+                    break;
+            }
+        }
+    }
+
+    void OnPathComplete(Path p)
+    {
+        if (!p.error)
+        {
+            path = p;
+            currentWaypoint = 0;
+        }
     }
 
     void FixedUpdate()
     {
         FindTarget();
 
-        if (path == null || waiting)
+        if (path == null)
         {
             return;
         }
@@ -49,7 +74,6 @@ public class EnemyAI : MonoBehaviour
         if (currentWaypoint >= path.vectorPath.Count)
         {
             reachedEndOfPath = true;
-            StartCoroutine(WaitAndGenerateNewPath());
             return;
         }
         else
@@ -80,26 +104,8 @@ public class EnemyAI : MonoBehaviour
         float targetRange = 6f;
         if (Vector3.Distance(transform.position, target.position) < targetRange)
         {
+            //Player within the range
             state = State.ChaseTarget;
-            seeker.StartPath(rb.position, target.position, OnPathComplete);
         }
-    }
-
-    void OnPathComplete(Path p)
-    {
-        if (!p.error)
-        {
-            path = p;
-            currentWaypoint = 0;
-        }
-    }
-
-    private IEnumerator WaitAndGenerateNewPath()
-    {
-        waiting = true;
-        yield return new WaitForSeconds(2);
-        GenerateRoamingPosition();
-        seeker.StartPath(rb.position, roamingPosition, OnPathComplete);
-        waiting = false;
     }
 }
