@@ -13,8 +13,9 @@ public class MovementTopDown : MonoBehaviour
     [SerializeField] private float movementSpeedStandar;
     [SerializeField] private float movementSprint;
     [SerializeField] private float timeSprint;
-    private float sprintCooldownTime;
     [SerializeField] private float timeBetweenSprint;
+    [SerializeField] private Stamina stamina;
+    private float sprintCooldownTime;
     private bool canSprint = true;
     private bool isSprinting = false;
     private float movementSpeed;
@@ -43,6 +44,7 @@ public class MovementTopDown : MonoBehaviour
         animator = GetComponent<Animator>();
         movementSpeed = movementSpeedStandar;
         sprintCooldownTime = timeSprint;
+        stamina.InitializeStamina(timeSprint);
     }
 
     private void Update()
@@ -52,7 +54,9 @@ public class MovementTopDown : MonoBehaviour
         {
             if (sprintCooldownTime > 0)
             {
-                sprintCooldownTime -= Time.deltaTime;
+                float staminaReduction = Time.deltaTime;
+                sprintCooldownTime -= staminaReduction;
+                stamina.ChangeStamina(-staminaReduction); // Reducir stamina progresivamente
             }
             else
             {
@@ -62,10 +66,12 @@ public class MovementTopDown : MonoBehaviour
             }
         }
 
-        // Actualizar la velocidad de movimiento según el estado del sprint
+        // Recuperar stamina si no se está corriendo
         if (!isSprinting && sprintCooldownTime < timeSprint)
         {
-            sprintCooldownTime = Mathf.Min(sprintCooldownTime + Time.deltaTime, timeSprint);
+            float staminaRecovery = Time.deltaTime * (timeSprint / timeBetweenSprint);
+            sprintCooldownTime = Mathf.Min(sprintCooldownTime + staminaRecovery, timeSprint);
+            stamina.ChangeStamina(staminaRecovery); // Recuperar stamina progresivamente
         }
     }
 
@@ -151,8 +157,7 @@ public class MovementTopDown : MonoBehaviour
         movementSpeed = movementSpeedStandar;
         isSprinting = false;
     }
-
-    private IEnumerator RecoverSprint()
+        private IEnumerator RecoverSprint()
     {
         yield return new WaitForSeconds(timeBetweenSprint);
         canSprint = true;
