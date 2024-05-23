@@ -1,0 +1,34 @@
+{
+    "name": "Entradas",
+    "maps": [
+        {
+            "name": "Acciones",
+            "id": "e14288ab-9318-4dc5-ac94-ef116d0986e2",
+            "actions": [
+                {
+                    "name": "Parálisis",
+                    "type": "Button",
+                    "id": "8b852639-7133-4477-b677-0856017b8cb7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b0262b11-8bff-4b87-b0c5-b69e5c4e7a1e",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Parálisis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

@@ -9,6 +9,7 @@ public class EnemyAI : MonoBehaviour
     public Transform target;
     public float speed = 200f;
     public float nextWaypointDistance = 3f;
+    public float targetRange = 3f;
 
     private Path path;
     private int currentWaypoint = 0;
@@ -17,10 +18,14 @@ public class EnemyAI : MonoBehaviour
     private Seeker seeker;
     private Rigidbody2D rb;
 
+    private float paralysisDuration;
+    private float paralysisTimer;
+
     private enum State
     {
         Roaming,
-        ChaseTarget
+        ChaseTarget,
+        Paralyzed
     }
 
     private State state;
@@ -49,6 +54,9 @@ public class EnemyAI : MonoBehaviour
                 case State.ChaseTarget:
                     seeker.StartPath(rb.position, target.position, OnPathComplete);
                     break;
+                case State.Paralyzed:
+                    // No hacer nada mientras está paralizado
+                    break;
             }
         }
     }
@@ -64,6 +72,16 @@ public class EnemyAI : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (state == State.Paralyzed)
+        {
+            paralysisTimer -= Time.deltaTime;
+            if (paralysisTimer <= 0)
+            {
+                state = State.Roaming; // O cualquier otro estado apropiado
+            }
+            return;
+        }
+
         FindTarget();
 
         if (path == null)
@@ -101,11 +119,19 @@ public class EnemyAI : MonoBehaviour
 
     private void FindTarget()
     {
-        float targetRange = 6f;
+        if (state == State.Paralyzed) return;
+
         if (Vector3.Distance(transform.position, target.position) < targetRange)
         {
             //Player within the range
             state = State.ChaseTarget;
         }
+    }
+
+    public void Paralyze(float duration)
+    {
+        state = State.Paralyzed;
+        paralysisDuration = duration;
+        paralysisTimer = duration;
     }
 }
