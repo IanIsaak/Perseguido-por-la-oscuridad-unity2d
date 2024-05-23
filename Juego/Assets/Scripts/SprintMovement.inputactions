@@ -1,0 +1,54 @@
+{
+    "name": "SprintMovement",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "73915070-a0d7-4406-8512-1df001554dfc",
+            "actions": [
+                {
+                    "name": "StartSprint",
+                    "type": "Button",
+                    "id": "a7e16b96-ddaf-4239-923a-ad0d1337e514",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "StopSprint",
+                    "type": "Button",
+                    "id": "cd602010-1578-40f4-8e64-010a0134cfaf",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b1df4b76-0bc7-4cfa-993c-ef59e230c171",
+                    "path": "<Keyboard>/b",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StartSprint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b3b0d417-2aec-4e2a-bb2c-9c6292dc1d99",
+                    "path": "<Keyboard>/b",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StopSprint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
