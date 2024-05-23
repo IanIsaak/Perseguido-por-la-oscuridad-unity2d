@@ -1,11 +1,15 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
+using TMPro;
 
 public class ParalyzeEnemy : MonoBehaviour
 {
     private Entradas entradas;
-
     public float paralysisDuration = 3.0f; // Duración de la parálisis aplicada al enemigo
+    public int maxUses = 3; // Número máximo de usos
+    private int currentUses = 0; // Contador de usos actuales
+    public TMP_Text counterText; // Texto UI para mostrar el contador
 
     private void Awake()
     {
@@ -25,19 +29,43 @@ public class ParalyzeEnemy : MonoBehaviour
     private void Start()
     {
         entradas.Acciones.Parálisis.performed += contexto => Paralisis(contexto);
+        UpdateCounterText();
     }
 
     private void Paralisis(InputAction.CallbackContext callbackContext)
     {
-        Debug.Log("Space pressed");
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.right, 5.0f);
-        if (hit.collider != null)
+        if (currentUses < maxUses)
         {
-            EnemyAI enemyAI = hit.collider.GetComponent<EnemyAI>();
-            if (enemyAI != null)
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.right, 5.0f);
+            if (hit.collider != null)
             {
-                enemyAI.Paralyze(paralysisDuration);
+                EnemyAI enemyAI = hit.collider.GetComponent<EnemyAI>();
+                if (enemyAI != null)
+                {
+                    enemyAI.Paralyze(paralysisDuration);
+                    currentUses++;
+                    UpdateCounterText();
+                }
             }
         }
+        else
+        {
+            Debug.Log("No more uses left. Restart the level to reset.");
+        }
+    }
+
+    private void UpdateCounterText()
+    {
+        if (counterText != null)
+        {
+            counterText.text = "Uses left: " + (maxUses - currentUses);
+        }
+    }
+
+    // Esta función debe ser llamada cuando se reinicia el nivel
+    public void ResetUses()
+    {
+        currentUses = 0;
+        UpdateCounterText();
     }
 }

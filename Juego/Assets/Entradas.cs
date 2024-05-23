@@ -29,11 +29,11 @@ public partial class @Entradas: IInputActionCollection2, IDisposable
             ""actions"": [
                 {
                     ""name"": ""Parálisis"",
-                    ""type"": ""PassThrough"",
+                    ""type"": ""Button"",
                     ""id"": ""8b852639-7133-4477-b677-0856017b8cb7"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """",
+                    ""interactions"": ""Press"",
                     ""initialStateCheck"": false
                 }
             ],
