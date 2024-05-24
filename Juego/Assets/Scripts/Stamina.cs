@@ -17,6 +17,7 @@ public class Stamina : MonoBehaviour
     {
         slider.maxValue = maxStamina;
         currentStamina = maxStamina;
+        slider.value = currentStamina;
     }
 
     public void ChangeStamina(float amount)
