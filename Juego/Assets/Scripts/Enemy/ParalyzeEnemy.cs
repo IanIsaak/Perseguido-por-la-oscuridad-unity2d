@@ -13,10 +13,11 @@ public class ParalyzeEnemy : MonoBehaviour
     private float a;
 
     private Entradas entradas;
-    public float paralysisDuration = 3.0f; // Duración de la parálisis aplicada al enemigo
-    public int maxUses = 3; // Número máximo de usos
+    public float paralysisDuration = 3.0f; // Duraciï¿½n de la parï¿½lisis aplicada al enemigo
+    public int maxUses = 3; // Nï¿½mero mï¿½ximo de usos
     private int currentUses = 0; // Contador de usos actuales
     public TMP_Text counterText; // Texto UI para mostrar el contador
+    public Animator batteryAnimator; // Referencia al componente Animator
 
     private void Awake()
     {
@@ -35,8 +36,9 @@ public class ParalyzeEnemy : MonoBehaviour
 
     private void Start()
     {
-        entradas.Acciones.Parálisis.performed += contexto => Paralisis(contexto);
+        entradas.Acciones.Parï¿½lisis.performed += contexto => Paralisis(contexto);
         UpdateCounterText();
+        UpdateBatteryAnimation();
 
         r = ElectricityOverlay.color.r;
         g = ElectricityOverlay.color.g;
@@ -49,6 +51,7 @@ public class ParalyzeEnemy : MonoBehaviour
         a -= 0.01f;
         a = Math.Clamp(a, 0, 1f);
         ChangeColor();
+        UpdateBatteryAnimation();
     }
 
     private void Paralisis(InputAction.CallbackContext callbackContext)
@@ -64,7 +67,8 @@ public class ParalyzeEnemy : MonoBehaviour
                     enemyAI.Paralyze(paralysisDuration);
                     currentUses++;
                     UpdateCounterText();
-
+                    UpdateBatteryAnimation();
+                    
                     //Overlay Logic
                     a = 0.8f;
                 }
@@ -83,12 +87,40 @@ public class ParalyzeEnemy : MonoBehaviour
             counterText.text = "Uses left: " + (maxUses - currentUses);
         }
     }
+    private void UpdateBatteryAnimation()
+    {
+        // Se asigna el animator
+        if (batteryAnimator != null)
+        {
+            // Se calcula el estado actual en base a los usos restantes
+            int batteryState = maxUses - currentUses;
+            switch (batteryState)
+            {
+                case 3:
+                    batteryAnimator.Play("Full");
+                    break;
+                case 2:
+                    batteryAnimator.Play("3-2");
+                    break;
+                case 1:
+                    batteryAnimator.Play("2-1");
+                    break;
+                case 0:
+                    batteryAnimator.Play("1-0");
+                    break;
+                default:
+                    Debug.LogWarning("Invalid battery state.");
+                    break;
+            }
+        }
+    }
 
-    // Esta función debe ser llamada cuando se reinicia el nivel
+    // Esta funciï¿½n debe ser llamada cuando se reinicia el nivel
     public void ResetUses()
     {
         currentUses = 0;
         UpdateCounterText();
+        UpdateBatteryAnimation();
     }
 
     private void ChangeColor()
