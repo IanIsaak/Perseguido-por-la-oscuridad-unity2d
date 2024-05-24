@@ -2,9 +2,16 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using TMPro;
+using System;
 
 public class ParalyzeEnemy : MonoBehaviour
 {
+    public Image ElectricityOverlay;
+    private float r;
+    private float g;
+    private float b;
+    private float a;
+
     private Entradas entradas;
     public float paralysisDuration = 3.0f; // Duración de la parálisis aplicada al enemigo
     public int maxUses = 3; // Número máximo de usos
@@ -30,6 +37,18 @@ public class ParalyzeEnemy : MonoBehaviour
     {
         entradas.Acciones.Parálisis.performed += contexto => Paralisis(contexto);
         UpdateCounterText();
+
+        r = ElectricityOverlay.color.r;
+        g = ElectricityOverlay.color.g;
+        b = ElectricityOverlay.color.b;
+        a = ElectricityOverlay.color.a;
+    }
+
+    private void FixedUpdate()
+    {
+        a -= 0.01f;
+        a = Math.Clamp(a, 0, 1f);
+        ChangeColor();
     }
 
     private void Paralisis(InputAction.CallbackContext callbackContext)
@@ -45,6 +64,9 @@ public class ParalyzeEnemy : MonoBehaviour
                     enemyAI.Paralyze(paralysisDuration);
                     currentUses++;
                     UpdateCounterText();
+
+                    //Overlay Logic
+                    a = 0.8f;
                 }
             }
         }
@@ -67,5 +89,11 @@ public class ParalyzeEnemy : MonoBehaviour
     {
         currentUses = 0;
         UpdateCounterText();
+    }
+
+    private void ChangeColor()
+    {
+        Color c = new Color(r, g, b, a);
+        ElectricityOverlay.color = c;
     }
 }
