@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -43,8 +42,8 @@ public class MovementTopDown : MonoBehaviour
         rb2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         movementSpeed = movementSpeedStandar;
-        sprintCooldownTime = timeSprint;
         stamina.InitializeStamina(timeSprint);
+        sprintCooldownTime = timeSprint;
     }
 
     private void Update()
@@ -90,40 +89,24 @@ public class MovementTopDown : MonoBehaviour
             {
                 if (direction.x > 0) // Moviéndose a la derecha
                 {
-                    animator.SetFloat("right", direction.x);
                     right = direction.x;
                 }
                 else // Moviéndose a la izquierda
                 {
-                    animator.SetFloat("left", -direction.x);
                     left = -direction.x;
                 }
-                animator.SetFloat("front", 0);
-                animator.SetFloat("back", 0);
             }
             else
             {
                 if (direction.y > 0) // Moviéndose enfrente
                 {
-                    animator.SetFloat("front", direction.y);
                     front = direction.y;
                 }
                 else // Moviéndose hacia atrás
                 {
-                    animator.SetFloat("back", -direction.y);
                     back = -direction.y;
                 }
-                animator.SetFloat("right", 0);
-                animator.SetFloat("left", 0);
             }
-        }
-        else
-        {
-            // Se le asigna el valor 0 si no hay movimiento
-            animator.SetFloat("front", 0);
-            animator.SetFloat("back", 0);
-            animator.SetFloat("right", 0);
-            animator.SetFloat("left", 0);
         }
 
         // Asignar los valores al Animator
@@ -157,7 +140,8 @@ public class MovementTopDown : MonoBehaviour
         movementSpeed = movementSpeedStandar;
         isSprinting = false;
     }
-        private IEnumerator RecoverSprint()
+
+    private IEnumerator RecoverSprint()
     {
         yield return new WaitForSeconds(timeBetweenSprint);
         canSprint = true;
