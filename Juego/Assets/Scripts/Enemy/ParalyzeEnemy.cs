@@ -36,7 +36,7 @@ public class ParalyzeEnemy : MonoBehaviour
 
     private void Start()
     {
-        entradas.Acciones.Par�lisis.performed += contexto => Paralisis(contexto);
+        entradas.Acciones.Parálisis.performed += contexto => Paralisis(contexto);
         UpdateCounterText();
         UpdateBatteryAnimation();
 
@@ -68,7 +68,7 @@ public class ParalyzeEnemy : MonoBehaviour
                     currentUses++;
                     UpdateCounterText();
                     UpdateBatteryAnimation();
-                    
+
                     //Overlay Logic
                     a = 0.8f;
                 }
