@@ -4,15 +4,16 @@ using UnityEngine.InputSystem;
 
 public class MovementTopDown : MonoBehaviour
 {
+    public FieldOfView fov;
     public Joystick joystick;
     private Rigidbody2D rb2D;
     private Animator animator;
 
     [Header("Sprint")]
-    [SerializeField] private float movementSpeedStandar;
-    [SerializeField] private float movementSprint;
-    [SerializeField] private float timeSprint;
-    [SerializeField] private float timeBetweenSprint;
+    [SerializeField] private float movementSpeedStandar = 5f;
+    [SerializeField] private float movementSprint = 8f;
+    [SerializeField] private float timeSprint = 2f;
+    [SerializeField] private float timeBetweenSprint = 5f;
     [SerializeField] private Stamina stamina;
     private float sprintCooldownTime;
     private bool canSprint = true;
@@ -42,12 +43,23 @@ public class MovementTopDown : MonoBehaviour
         rb2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         movementSpeed = movementSpeedStandar;
-        stamina.InitializeStamina(timeSprint);
+
+        if (stamina != null)
+        {
+            stamina.InitializeStamina(timeSprint);
+        }
+
         sprintCooldownTime = timeSprint;
     }
 
     private void Update()
     {
+        // Actualizar el origen del FOV para que siga al personaje
+        if (fov != null)
+        {
+            fov.SetOrigin(transform.position);
+        }
+
         // Reducir el tiempo del sprint si está corriendo
         if (isSprinting)
         {
@@ -55,7 +67,11 @@ public class MovementTopDown : MonoBehaviour
             {
                 float staminaReduction = Time.deltaTime;
                 sprintCooldownTime -= staminaReduction;
-                stamina.ChangeStamina(-staminaReduction); // Reducir stamina progresivamente
+
+                if (stamina != null)
+                {
+                    stamina.ChangeStamina(-staminaReduction); // Reducir stamina progresivamente
+                }
             }
             else
             {
@@ -70,7 +86,11 @@ public class MovementTopDown : MonoBehaviour
         {
             float staminaRecovery = Time.deltaTime * (timeSprint / timeBetweenSprint);
             sprintCooldownTime = Mathf.Min(sprintCooldownTime + staminaRecovery, timeSprint);
-            stamina.ChangeStamina(staminaRecovery); // Recuperar stamina progresivamente
+
+            if (stamina != null)
+            {
+                stamina.ChangeStamina(staminaRecovery); // Recuperar stamina progresivamente
+            }
         }
     }
 
