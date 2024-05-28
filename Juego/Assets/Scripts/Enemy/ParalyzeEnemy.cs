@@ -2,12 +2,19 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using TMPro;
+using System;
 
 public class ParalyzeEnemy : MonoBehaviour
 {
+    public Image ElectricityOverlay;
+    private float r;
+    private float g;
+    private float b;
+    private float a;
+
     private Entradas entradas;
-    public float paralysisDuration = 3.0f; // Duración de la parálisis aplicada al enemigo
-    public int maxUses = 3; // Número máximo de usos
+    public float paralysisDuration = 3.0f; // Duraciï¿½n de la parï¿½lisis aplicada al enemigo
+    public int maxUses = 3; // Nï¿½mero mï¿½ximo de usos
     private int currentUses = 0; // Contador de usos actuales
     public TMP_Text counterText; // Texto UI para mostrar el contador
     public Animator batteryAnimator; // Referencia al componente Animator
@@ -29,8 +36,21 @@ public class ParalyzeEnemy : MonoBehaviour
 
     private void Start()
     {
-        entradas.Acciones.Parálisis.performed += contexto => Paralisis(contexto);
+        entradas.Acciones.ParÃ¡lisis.performed += contexto => Paralisis(contexto);
         UpdateCounterText();
+        UpdateBatteryAnimation();
+
+        r = ElectricityOverlay.color.r;
+        g = ElectricityOverlay.color.g;
+        b = ElectricityOverlay.color.b;
+        a = ElectricityOverlay.color.a;
+    }
+
+    private void FixedUpdate()
+    {
+        a -= 0.01f;
+        a = Math.Clamp(a, 0, 1f);
+        ChangeColor();
         UpdateBatteryAnimation();
     }
 
@@ -48,6 +68,9 @@ public class ParalyzeEnemy : MonoBehaviour
                     currentUses++;
                     UpdateCounterText();
                     UpdateBatteryAnimation();
+
+                    //Overlay Logic
+                    a = 0.8f;
                 }
             }
         }
@@ -92,11 +115,17 @@ public class ParalyzeEnemy : MonoBehaviour
         }
     }
 
-    // Esta función debe ser llamada cuando se reinicia el nivel
+    // Esta funciï¿½n debe ser llamada cuando se reinicia el nivel
     public void ResetUses()
     {
         currentUses = 0;
         UpdateCounterText();
         UpdateBatteryAnimation();
+    }
+
+    private void ChangeColor()
+    {
+        Color c = new Color(r, g, b, a);
+        ElectricityOverlay.color = c;
     }
 }
