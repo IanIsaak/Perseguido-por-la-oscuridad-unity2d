@@ -67,7 +67,7 @@ public class cable : MonoBehaviour
         finalCable.size = new Vector2(distancia, finalCable.size.y);
     }
 
-    private void Reiniciar()
+   private void Reiniciar()
     {
         transform.position = posicionOriginal;
         transform.rotation = Quaternion.identity;
