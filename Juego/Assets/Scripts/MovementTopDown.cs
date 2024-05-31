@@ -21,6 +21,7 @@ public class MovementTopDown : MonoBehaviour
     private bool isSprinting = false;
     private float movementSpeed;
     private SprintMovement sprintMovement;
+    public bool gameOver = false;
 
     private void Awake()
     {
@@ -98,7 +99,14 @@ public class MovementTopDown : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Vector2 direction = joystick.Direction;
+        Vector2 direction = Vector2.zero;
+
+        // Verificar si el joystick está habilitado
+        if (!gameOver)
+        {
+            direction = joystick.Direction;
+        }
+
         rb2D.MovePosition(rb2D.position + direction * movementSpeed * Time.fixedDeltaTime);
 
         // Inicializar valores para el Animator

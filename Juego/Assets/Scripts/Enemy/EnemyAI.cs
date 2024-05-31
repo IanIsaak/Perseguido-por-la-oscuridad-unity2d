@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using Pathfinding;
 using Unity.VisualScripting;
+using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class EnemyAI : MonoBehaviour
 {
-    [SerializeField] private GameObject gameOver;
-
     public Transform target;
     public float speed = 200f;
     public float nextWaypointDistance = 3f;
@@ -135,13 +134,5 @@ public class EnemyAI : MonoBehaviour
         state = State.Paralyzed;
         paralysisDuration = duration;
         paralysisTimer = duration;
-    }
-
-    void OnTriggerEnter2D(Collider2D collider)
-    {
-        if (collider.GetComponent<MovementTopDown>() != null)
-        {
-            gameOver.SetActive(true);
-        }
     }
 }
