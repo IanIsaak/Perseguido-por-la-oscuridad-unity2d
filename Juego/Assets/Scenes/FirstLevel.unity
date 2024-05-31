@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 2161029}
   - component: {fileID: 2161030}
   - component: {fileID: 2161031}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SalaJuntas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -426,7 +426,7 @@ GameObject:
   - component: {fileID: 37908725}
   - component: {fileID: 37908727}
   - component: {fileID: 37908726}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: plant (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -556,7 +556,7 @@ GameObject:
   - component: {fileID: 43513564}
   - component: {fileID: 43513566}
   - component: {fileID: 43513565}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sillon1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -686,7 +686,7 @@ GameObject:
   - component: {fileID: 56597833}
   - component: {fileID: 56597835}
   - component: {fileID: 56597834}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lado (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -814,7 +814,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 65558427}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pasillo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1035,7 +1035,8 @@ Transform:
   m_LocalPosition: {x: 0.52, y: -3.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 940002764}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &76964377
@@ -1082,7 +1083,7 @@ GameObject:
   - component: {fileID: 84979181}
   - component: {fileID: 84979183}
   - component: {fileID: 84979182}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: taza (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1212,7 +1213,7 @@ GameObject:
   - component: {fileID: 86594434}
   - component: {fileID: 86594436}
   - component: {fileID: 86594435}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: plant (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1342,7 +1343,7 @@ GameObject:
   - component: {fileID: 88169830}
   - component: {fileID: 88169832}
   - component: {fileID: 88169831}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesac (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1556,7 +1557,7 @@ GameObject:
   - component: {fileID: 101925320}
   - component: {fileID: 101925322}
   - component: {fileID: 101925321}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pared (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1686,7 +1687,7 @@ GameObject:
   - component: {fileID: 105751151}
   - component: {fileID: 105751153}
   - component: {fileID: 105751152}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pared (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1907,7 +1908,7 @@ GameObject:
   - component: {fileID: 122459649}
   - component: {fileID: 122459651}
   - component: {fileID: 122459650}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: taza (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2037,7 +2038,7 @@ GameObject:
   - component: {fileID: 128323041}
   - component: {fileID: 128323043}
   - component: {fileID: 128323042}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: power_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2167,7 +2168,7 @@ GameObject:
   - component: {fileID: 137974354}
   - component: {fileID: 137974356}
   - component: {fileID: 137974355}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: taza (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2296,7 +2297,7 @@ GameObject:
   m_Component:
   - component: {fileID: 143148209}
   - component: {fileID: 143148210}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2459,7 +2460,7 @@ GameObject:
   - component: {fileID: 152518394}
   - component: {fileID: 152518396}
   - component: {fileID: 152518395}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lavamanos (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2589,7 +2590,7 @@ GameObject:
   - component: {fileID: 156980120}
   - component: {fileID: 156980122}
   - component: {fileID: 156980121}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2719,7 +2720,7 @@ GameObject:
   - component: {fileID: 178747545}
   - component: {fileID: 178747547}
   - component: {fileID: 178747546}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: arribarl (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3098,7 +3099,7 @@ GameObject:
   - component: {fileID: 194495590}
   - component: {fileID: 194495592}
   - component: {fileID: 194495591}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3228,7 +3229,7 @@ GameObject:
   - component: {fileID: 196730275}
   - component: {fileID: 196730277}
   - component: {fileID: 196730276}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lado (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3358,7 +3359,7 @@ GameObject:
   - component: {fileID: 199182193}
   - component: {fileID: 199182195}
   - component: {fileID: 199182194}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: regadera (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3488,7 +3489,7 @@ GameObject:
   - component: {fileID: 205062405}
   - component: {fileID: 205062407}
   - component: {fileID: 205062406}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: taza (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3618,7 +3619,7 @@ GameObject:
   - component: {fileID: 210638603}
   - component: {fileID: 210638605}
   - component: {fileID: 210638604}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesa02 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3746,7 +3747,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 212839775}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Oficina
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3887,7 +3888,7 @@ GameObject:
   - component: {fileID: 222530934}
   - component: {fileID: 222530933}
   - component: {fileID: 222530932}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Garrafon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4017,7 +4018,7 @@ GameObject:
   - component: {fileID: 236663085}
   - component: {fileID: 236663087}
   - component: {fileID: 236663086}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: power_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4266,7 +4267,7 @@ GameObject:
   - component: {fileID: 244254027}
   - component: {fileID: 244254029}
   - component: {fileID: 244254028}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Garrafon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4396,7 +4397,7 @@ GameObject:
   - component: {fileID: 251571637}
   - component: {fileID: 251571639}
   - component: {fileID: 251571638}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Garrafon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4526,7 +4527,7 @@ GameObject:
   - component: {fileID: 272969953}
   - component: {fileID: 272969955}
   - component: {fileID: 272969954}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: arribarl (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4656,7 +4657,7 @@ GameObject:
   - component: {fileID: 310140395}
   - component: {fileID: 310140397}
   - component: {fileID: 310140396}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Garrafon (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5022,7 +5023,7 @@ GameObject:
   - component: {fileID: 339995998}
   - component: {fileID: 339996000}
   - component: {fileID: 339995999}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5152,7 +5153,7 @@ GameObject:
   - component: {fileID: 347301555}
   - component: {fileID: 347301557}
   - component: {fileID: 347301556}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5282,7 +5283,7 @@ GameObject:
   - component: {fileID: 353786086}
   - component: {fileID: 353786088}
   - component: {fileID: 353786087}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lavamanos (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5412,7 +5413,7 @@ GameObject:
   - component: {fileID: 362452212}
   - component: {fileID: 362452214}
   - component: {fileID: 362452213}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesa02 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5542,7 +5543,7 @@ GameObject:
   - component: {fileID: 377128541}
   - component: {fileID: 377128543}
   - component: {fileID: 377128542}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5905,7 +5906,7 @@ GameObject:
   - component: {fileID: 392572533}
   - component: {fileID: 392572535}
   - component: {fileID: 392572534}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6035,7 +6036,7 @@ GameObject:
   - component: {fileID: 398015328}
   - component: {fileID: 398015330}
   - component: {fileID: 398015329}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0 (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6165,7 +6166,7 @@ GameObject:
   - component: {fileID: 404485025}
   - component: {fileID: 404485027}
   - component: {fileID: 404485026}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lado (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6425,7 +6426,7 @@ GameObject:
   - component: {fileID: 412090671}
   - component: {fileID: 412090673}
   - component: {fileID: 412090672}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesa02 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6555,7 +6556,7 @@ GameObject:
   - component: {fileID: 412217178}
   - component: {fileID: 412217180}
   - component: {fileID: 412217179}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: plant (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6776,7 +6777,7 @@ GameObject:
   - component: {fileID: 433165800}
   - component: {fileID: 433165802}
   - component: {fileID: 433165801}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pared (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6904,7 +6905,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 433179408}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sala
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6953,7 +6954,7 @@ GameObject:
   - component: {fileID: 434218513}
   - component: {fileID: 434218515}
   - component: {fileID: 434218514}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: plant (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7082,7 +7083,7 @@ GameObject:
   m_Component:
   - component: {fileID: 437302849}
   - component: {fileID: 437302850}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesac
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7167,7 +7168,7 @@ GameObject:
   - component: {fileID: 439602346}
   - component: {fileID: 439602348}
   - component: {fileID: 439602347}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesa02 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7297,7 +7298,7 @@ GameObject:
   - component: {fileID: 440154869}
   - component: {fileID: 440154871}
   - component: {fileID: 440154870}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: regadera (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7427,7 +7428,7 @@ GameObject:
   - component: {fileID: 474623439}
   - component: {fileID: 474623441}
   - component: {fileID: 474623440}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesasO (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7557,7 +7558,7 @@ GameObject:
   - component: {fileID: 475269156}
   - component: {fileID: 475269158}
   - component: {fileID: 475269157}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Garrafon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7687,7 +7688,7 @@ GameObject:
   - component: {fileID: 488682535}
   - component: {fileID: 488682537}
   - component: {fileID: 488682536}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: plant (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7817,7 +7818,7 @@ GameObject:
   - component: {fileID: 491577038}
   - component: {fileID: 491577040}
   - component: {fileID: 491577039}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesasO (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7947,7 +7948,7 @@ GameObject:
   - component: {fileID: 492643358}
   - component: {fileID: 492643360}
   - component: {fileID: 492643359}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lado (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8146,7 +8147,7 @@ GameObject:
   - component: {fileID: 503687763}
   - component: {fileID: 503687765}
   - component: {fileID: 503687764}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8406,7 +8407,7 @@ GameObject:
   - component: {fileID: 515875252}
   - component: {fileID: 515875254}
   - component: {fileID: 515875253}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ingreso_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8536,7 +8537,7 @@ GameObject:
   - component: {fileID: 538914155}
   - component: {fileID: 538914157}
   - component: {fileID: 538914156}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lado (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8735,7 +8736,7 @@ GameObject:
   - component: {fileID: 555215305}
   - component: {fileID: 555215307}
   - component: {fileID: 555215306}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: arribarl (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8865,7 +8866,7 @@ GameObject:
   - component: {fileID: 559009104}
   - component: {fileID: 559009106}
   - component: {fileID: 559009105}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: plant (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8995,7 +8996,7 @@ GameObject:
   - component: {fileID: 569914389}
   - component: {fileID: 569914391}
   - component: {fileID: 569914390}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lado (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16421,7 +16422,7 @@ GameObject:
   - component: {fileID: 592950631}
   - component: {fileID: 592950633}
   - component: {fileID: 592950632}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16551,7 +16552,7 @@ GameObject:
   - component: {fileID: 603278739}
   - component: {fileID: 603278741}
   - component: {fileID: 603278740}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: arribarl (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16811,7 +16812,7 @@ GameObject:
   - component: {fileID: 636133003}
   - component: {fileID: 636133005}
   - component: {fileID: 636133004}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: plant (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17203,7 +17204,7 @@ GameObject:
   - component: {fileID: 665289922}
   - component: {fileID: 665289924}
   - component: {fileID: 665289923}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17463,7 +17464,7 @@ GameObject:
   - component: {fileID: 677560369}
   - component: {fileID: 677560371}
   - component: {fileID: 677560370}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: regadera (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17593,7 +17594,7 @@ GameObject:
   - component: {fileID: 684685426}
   - component: {fileID: 684685428}
   - component: {fileID: 684685427}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sillon1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17723,7 +17724,7 @@ GameObject:
   - component: {fileID: 690864735}
   - component: {fileID: 690864737}
   - component: {fileID: 690864736}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lado (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17853,7 +17854,7 @@ GameObject:
   - component: {fileID: 709842132}
   - component: {fileID: 709842134}
   - component: {fileID: 709842133}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: plant (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18019,7 +18020,7 @@ GameObject:
   - component: {fileID: 724723909}
   - component: {fileID: 724723911}
   - component: {fileID: 724723910}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lado (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18149,7 +18150,7 @@ GameObject:
   - component: {fileID: 730314370}
   - component: {fileID: 730314372}
   - component: {fileID: 730314371}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sillon1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18279,7 +18280,7 @@ GameObject:
   - component: {fileID: 731729305}
   - component: {fileID: 731729307}
   - component: {fileID: 731729306}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: arribarl (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18409,7 +18410,7 @@ GameObject:
   - component: {fileID: 732179886}
   - component: {fileID: 732179888}
   - component: {fileID: 732179887}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: regadera (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18539,7 +18540,7 @@ GameObject:
   - component: {fileID: 739223185}
   - component: {fileID: 739223187}
   - component: {fileID: 739223186}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18751,7 +18752,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 754302983}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Racks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18836,7 +18837,7 @@ GameObject:
   - component: {fileID: 755259572}
   - component: {fileID: 755259574}
   - component: {fileID: 755259573}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: plant (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19174,7 +19175,7 @@ GameObject:
   - component: {fileID: 785722070}
   - component: {fileID: 785722072}
   - component: {fileID: 785722071}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19304,7 +19305,7 @@ GameObject:
   - component: {fileID: 790466624}
   - component: {fileID: 790466626}
   - component: {fileID: 790466625}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesa02 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19434,7 +19435,7 @@ GameObject:
   - component: {fileID: 792618310}
   - component: {fileID: 792618312}
   - component: {fileID: 792618311}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0 (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19562,7 +19563,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 804072636}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Decoracion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19603,7 +19604,7 @@ GameObject:
   - component: {fileID: 811425291}
   - component: {fileID: 811425293}
   - component: {fileID: 811425292}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0 (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19863,7 +19864,7 @@ GameObject:
   - component: {fileID: 827182971}
   - component: {fileID: 827182973}
   - component: {fileID: 827182972}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesasO (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20082,7 +20083,7 @@ GameObject:
   - component: {fileID: 828669739}
   - component: {fileID: 828669741}
   - component: {fileID: 828669740}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20259,7 +20260,7 @@ GameObject:
   - component: {fileID: 843338717}
   - component: {fileID: 843338719}
   - component: {fileID: 843338718}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20389,7 +20390,7 @@ GameObject:
   - component: {fileID: 848064845}
   - component: {fileID: 848064847}
   - component: {fileID: 848064846}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: arribarl (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20518,7 +20519,7 @@ GameObject:
   m_Component:
   - component: {fileID: 852309743}
   - component: {fileID: 852309744}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ventana (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20888,7 +20889,7 @@ GameObject:
   - component: {fileID: 874936765}
   - component: {fileID: 874936767}
   - component: {fileID: 874936766}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lavamanos (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21018,7 +21019,7 @@ GameObject:
   - component: {fileID: 881362850}
   - component: {fileID: 881362852}
   - component: {fileID: 881362851}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: arribarl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21281,7 +21282,7 @@ GameObject:
   m_Component:
   - component: {fileID: 887031319}
   - component: {fileID: 887031320}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ventana (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21498,7 +21499,7 @@ GameObject:
   - component: {fileID: 888110170}
   - component: {fileID: 888110172}
   - component: {fileID: 888110171}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21628,7 +21629,7 @@ GameObject:
   - component: {fileID: 894382659}
   - component: {fileID: 894382661}
   - component: {fileID: 894382660}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21758,7 +21759,7 @@ GameObject:
   - component: {fileID: 900832815}
   - component: {fileID: 900832817}
   - component: {fileID: 900832816}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: plant (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22018,7 +22019,7 @@ GameObject:
   - component: {fileID: 920680530}
   - component: {fileID: 920680532}
   - component: {fileID: 920680531}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22148,7 +22149,7 @@ GameObject:
   - component: {fileID: 927612979}
   - component: {fileID: 927612981}
   - component: {fileID: 927612980}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: plant (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22267,6 +22268,147 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &940002763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 940002764}
+  - component: {fileID: 940002766}
+  - component: {fileID: 940002765}
+  m_Layer: 0
+  m_Name: Walk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &940002764
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940002763}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 76964376}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &940002765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940002763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4535ac201a07e8b4783d376be0cc08e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!82 &940002766
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940002763}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 706f2d97c7f7a914e9e777d0a5c90f23, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &941092907
 GameObject:
   m_ObjectHideFlags: 0
@@ -22380,7 +22522,7 @@ GameObject:
   m_Component:
   - component: {fileID: 947072793}
   - component: {fileID: 947072794}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ventana (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22465,7 +22607,7 @@ GameObject:
   - component: {fileID: 952995633}
   - component: {fileID: 952995635}
   - component: {fileID: 952995634}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pared (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22926,7 +23068,7 @@ GameObject:
   - component: {fileID: 1002068599}
   - component: {fileID: 1002068601}
   - component: {fileID: 1002068600}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lado (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23056,7 +23198,7 @@ GameObject:
   - component: {fileID: 1003753948}
   - component: {fileID: 1003753950}
   - component: {fileID: 1003753949}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0 (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23318,7 +23460,7 @@ GameObject:
   - component: {fileID: 1012991436}
   - component: {fileID: 1012991438}
   - component: {fileID: 1012991437}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: arribarl (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23582,7 +23724,7 @@ GameObject:
   - component: {fileID: 1043096536}
   - component: {fileID: 1043096538}
   - component: {fileID: 1043096537}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesac (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23712,7 +23854,7 @@ GameObject:
   - component: {fileID: 1048576277}
   - component: {fileID: 1048576279}
   - component: {fileID: 1048576278}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23842,7 +23984,7 @@ GameObject:
   - component: {fileID: 1055721652}
   - component: {fileID: 1055721654}
   - component: {fileID: 1055721653}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23972,7 +24114,7 @@ GameObject:
   - component: {fileID: 1061712971}
   - component: {fileID: 1061712973}
   - component: {fileID: 1061712972}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: plant (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24100,7 +24242,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1063924121}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Electrico
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24151,7 +24293,7 @@ GameObject:
   - component: {fileID: 1077418255}
   - component: {fileID: 1077418257}
   - component: {fileID: 1077418256}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24281,7 +24423,7 @@ GameObject:
   - component: {fileID: 1092200463}
   - component: {fileID: 1092200465}
   - component: {fileID: 1092200464}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: plant (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24411,7 +24553,7 @@ GameObject:
   - component: {fileID: 1106701285}
   - component: {fileID: 1106701287}
   - component: {fileID: 1106701286}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24616,7 +24758,7 @@ GameObject:
   - component: {fileID: 1115233560}
   - component: {fileID: 1115233562}
   - component: {fileID: 1115233561}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lavamanos (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24834,7 +24976,7 @@ GameObject:
   - component: {fileID: 1168502592}
   - component: {fileID: 1168502594}
   - component: {fileID: 1168502593}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: taza (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24964,7 +25106,7 @@ GameObject:
   - component: {fileID: 1169391532}
   - component: {fileID: 1169391534}
   - component: {fileID: 1169391533}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: arribarl (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25094,7 +25236,7 @@ GameObject:
   - component: {fileID: 1177447095}
   - component: {fileID: 1177447097}
   - component: {fileID: 1177447096}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sillon1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25354,7 +25496,7 @@ GameObject:
   - component: {fileID: 1194134698}
   - component: {fileID: 1194134700}
   - component: {fileID: 1194134699}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: arribarl (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25484,7 +25626,7 @@ GameObject:
   - component: {fileID: 1195798204}
   - component: {fileID: 1195798206}
   - component: {fileID: 1195798205}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sillon2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25612,7 +25754,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1195958445}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SaladeJuntas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25650,7 +25792,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1203430189}
   - component: {fileID: 1203430190}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ventana (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25809,7 +25951,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1210386889}
   - component: {fileID: 1210386890}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tele
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25894,7 +26036,7 @@ GameObject:
   - component: {fileID: 1210767090}
   - component: {fileID: 1210767092}
   - component: {fileID: 1210767091}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: plant (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26154,7 +26296,7 @@ GameObject:
   - component: {fileID: 1212694767}
   - component: {fileID: 1212694769}
   - component: {fileID: 1212694768}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: arribarl (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26375,7 +26517,7 @@ GameObject:
   - component: {fileID: 1215688813}
   - component: {fileID: 1215688815}
   - component: {fileID: 1215688814}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: arribarl (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26505,7 +26647,7 @@ GameObject:
   - component: {fileID: 1234599576}
   - component: {fileID: 1234599578}
   - component: {fileID: 1234599577}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesac (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26635,7 +26777,7 @@ GameObject:
   - component: {fileID: 1242352193}
   - component: {fileID: 1242352195}
   - component: {fileID: 1242352194}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesasO (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56099,7 +56241,7 @@ GameObject:
   - component: {fileID: 1252824367}
   - component: {fileID: 1252824369}
   - component: {fileID: 1252824368}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: plant (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56229,7 +56371,7 @@ GameObject:
   - component: {fileID: 1258924133}
   - component: {fileID: 1258924135}
   - component: {fileID: 1258924134}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: arribarl (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56359,7 +56501,7 @@ GameObject:
   - component: {fileID: 1258987811}
   - component: {fileID: 1258987813}
   - component: {fileID: 1258987812}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lado
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56489,7 +56631,7 @@ GameObject:
   - component: {fileID: 1282980231}
   - component: {fileID: 1282980233}
   - component: {fileID: 1282980232}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lado (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56619,7 +56761,7 @@ GameObject:
   - component: {fileID: 1291187495}
   - component: {fileID: 1291187497}
   - component: {fileID: 1291187496}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesac (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56749,7 +56891,7 @@ GameObject:
   - component: {fileID: 1295177361}
   - component: {fileID: 1295177363}
   - component: {fileID: 1295177362}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: regadera (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56879,7 +57021,7 @@ GameObject:
   - component: {fileID: 1301389213}
   - component: {fileID: 1301389215}
   - component: {fileID: 1301389214}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0 (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57009,7 +57151,7 @@ GameObject:
   - component: {fileID: 1304819601}
   - component: {fileID: 1304819603}
   - component: {fileID: 1304819602}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesasO (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57139,7 +57281,7 @@ GameObject:
   - component: {fileID: 1307081619}
   - component: {fileID: 1307081621}
   - component: {fileID: 1307081620}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: arribarl (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57269,7 +57411,7 @@ GameObject:
   - component: {fileID: 1314457122}
   - component: {fileID: 1314457124}
   - component: {fileID: 1314457123}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sillon2 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57490,7 +57632,7 @@ GameObject:
   - component: {fileID: 1330698750}
   - component: {fileID: 1330698752}
   - component: {fileID: 1330698751}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: plant (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57979,7 +58121,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1387517678}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Banio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58146,7 +58288,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1405391164}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Comedor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58192,7 +58334,7 @@ GameObject:
   - component: {fileID: 1406661778}
   - component: {fileID: 1406661780}
   - component: {fileID: 1406661779}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesa02 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58322,7 +58464,7 @@ GameObject:
   - component: {fileID: 1407488913}
   - component: {fileID: 1407488915}
   - component: {fileID: 1407488914}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: taza (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58452,7 +58594,7 @@ GameObject:
   - component: {fileID: 1408416545}
   - component: {fileID: 1408416547}
   - component: {fileID: 1408416546}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: regadera (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58582,7 +58724,7 @@ GameObject:
   - component: {fileID: 1411195438}
   - component: {fileID: 1411195440}
   - component: {fileID: 1411195439}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pared (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58712,7 +58854,7 @@ GameObject:
   - component: {fileID: 1419405971}
   - component: {fileID: 1419405973}
   - component: {fileID: 1419405972}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: plant (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58842,7 +58984,7 @@ GameObject:
   - component: {fileID: 1432338020}
   - component: {fileID: 1432338022}
   - component: {fileID: 1432338021}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lavamanos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59046,7 +59188,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1468963592}
   - component: {fileID: 1468963593}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ventana
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59131,7 +59273,7 @@ GameObject:
   - component: {fileID: 1479455938}
   - component: {fileID: 1479455940}
   - component: {fileID: 1479455939}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesac (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59261,7 +59403,7 @@ GameObject:
   - component: {fileID: 1487886565}
   - component: {fileID: 1487886567}
   - component: {fileID: 1487886566}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesac (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63328,7 +63470,7 @@ GameObject:
   - component: {fileID: 1504791351}
   - component: {fileID: 1504791353}
   - component: {fileID: 1504791352}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Garrafon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63458,7 +63600,7 @@ GameObject:
   - component: {fileID: 1508651972}
   - component: {fileID: 1508651974}
   - component: {fileID: 1508651973}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesa02 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63588,7 +63730,7 @@ GameObject:
   - component: {fileID: 1511720746}
   - component: {fileID: 1511720748}
   - component: {fileID: 1511720747}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sillon1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63718,7 +63860,7 @@ GameObject:
   - component: {fileID: 1540122772}
   - component: {fileID: 1540122774}
   - component: {fileID: 1540122773}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: plant (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63848,7 +63990,7 @@ GameObject:
   - component: {fileID: 1542481084}
   - component: {fileID: 1542481086}
   - component: {fileID: 1542481085}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: arribarl (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63977,7 +64119,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1550792899}
   - component: {fileID: 1550792900}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ventana (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64062,7 +64204,7 @@ GameObject:
   - component: {fileID: 1557248196}
   - component: {fileID: 1557248198}
   - component: {fileID: 1557248197}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sillon1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64268,7 +64410,7 @@ GameObject:
   - component: {fileID: 1559587481}
   - component: {fileID: 1559587483}
   - component: {fileID: 1559587482}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sillon1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64398,7 +64540,7 @@ GameObject:
   - component: {fileID: 1562671148}
   - component: {fileID: 1562671150}
   - component: {fileID: 1562671149}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lado (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64528,7 +64670,7 @@ GameObject:
   - component: {fileID: 1569979890}
   - component: {fileID: 1569979892}
   - component: {fileID: 1569979891}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesac (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64658,7 +64800,7 @@ GameObject:
   - component: {fileID: 1592905280}
   - component: {fileID: 1592905282}
   - component: {fileID: 1592905281}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sillon1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64788,7 +64930,7 @@ GameObject:
   - component: {fileID: 1600477303}
   - component: {fileID: 1600477305}
   - component: {fileID: 1600477304}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: taza (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64918,7 +65060,7 @@ GameObject:
   - component: {fileID: 1628783415}
   - component: {fileID: 1628783417}
   - component: {fileID: 1628783416}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesa02 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65048,7 +65190,7 @@ GameObject:
   - component: {fileID: 1630293309}
   - component: {fileID: 1630293311}
   - component: {fileID: 1630293310}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: regadera (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65178,7 +65320,7 @@ GameObject:
   - component: {fileID: 1645698852}
   - component: {fileID: 1645698854}
   - component: {fileID: 1645698853}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lado (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65307,7 +65449,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1647734401}
   - component: {fileID: 1647734402}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ventana (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65702,7 +65844,7 @@ GameObject:
   - component: {fileID: 1669409563}
   - component: {fileID: 1669409565}
   - component: {fileID: 1669409564}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: taza
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65832,7 +65974,7 @@ GameObject:
   - component: {fileID: 1677628741}
   - component: {fileID: 1677628743}
   - component: {fileID: 1677628742}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: taza (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65962,7 +66104,7 @@ GameObject:
   - component: {fileID: 1695340794}
   - component: {fileID: 1695340796}
   - component: {fileID: 1695340795}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sillon2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66092,7 +66234,7 @@ GameObject:
   - component: {fileID: 1695524046}
   - component: {fileID: 1695524048}
   - component: {fileID: 1695524047}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lavamanos (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66222,7 +66364,7 @@ GameObject:
   - component: {fileID: 1713307134}
   - component: {fileID: 1713307136}
   - component: {fileID: 1713307135}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Garrafon (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66352,7 +66494,7 @@ GameObject:
   - component: {fileID: 1715449534}
   - component: {fileID: 1715449536}
   - component: {fileID: 1715449535}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0 (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66482,7 +66624,7 @@ GameObject:
   - component: {fileID: 1719674281}
   - component: {fileID: 1719674283}
   - component: {fileID: 1719674282}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lado (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66612,7 +66754,7 @@ GameObject:
   - component: {fileID: 1720425204}
   - component: {fileID: 1720425206}
   - component: {fileID: 1720425205}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0 (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66760,7 +66902,7 @@ GameObject:
   - component: {fileID: 1748577491}
   - component: {fileID: 1748577493}
   - component: {fileID: 1748577492}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: plant (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66964,7 +67106,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1770154108}
   - component: {fileID: 1770154109}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ventana (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67048,7 +67190,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1776293113}
   - component: {fileID: 1776293114}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ventana (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67133,7 +67275,7 @@ GameObject:
   - component: {fileID: 1780015983}
   - component: {fileID: 1780015985}
   - component: {fileID: 1780015984}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: arribarl (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67263,7 +67405,7 @@ GameObject:
   - component: {fileID: 1780472377}
   - component: {fileID: 1780472376}
   - component: {fileID: 1780472375}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Garrafon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67393,7 +67535,7 @@ GameObject:
   - component: {fileID: 1792310813}
   - component: {fileID: 1792310815}
   - component: {fileID: 1792310814}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: arribarl (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67523,7 +67665,7 @@ GameObject:
   - component: {fileID: 1793757512}
   - component: {fileID: 1793757514}
   - component: {fileID: 1793757513}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pared (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67722,7 +67864,7 @@ GameObject:
   - component: {fileID: 1822078131}
   - component: {fileID: 1822078133}
   - component: {fileID: 1822078132}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0 (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67852,7 +67994,7 @@ GameObject:
   - component: {fileID: 1828621585}
   - component: {fileID: 1828621587}
   - component: {fileID: 1828621586}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pared (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67981,7 +68123,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1831082451}
   - component: {fileID: 1831082452}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ventana (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68066,7 +68208,7 @@ GameObject:
   - component: {fileID: 1832146650}
   - component: {fileID: 1832146652}
   - component: {fileID: 1832146651}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68196,7 +68338,7 @@ GameObject:
   - component: {fileID: 1836945230}
   - component: {fileID: 1836945232}
   - component: {fileID: 1836945231}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: plant (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68525,7 +68667,7 @@ GameObject:
   - component: {fileID: 1872068180}
   - component: {fileID: 1872068182}
   - component: {fileID: 1872068181}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Garrafon (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68655,7 +68797,7 @@ GameObject:
   - component: {fileID: 1873180263}
   - component: {fileID: 1873180265}
   - component: {fileID: 1873180264}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: taza (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68785,7 +68927,7 @@ GameObject:
   - component: {fileID: 1891892587}
   - component: {fileID: 1891892589}
   - component: {fileID: 1891892588}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: taza (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68915,7 +69057,7 @@ GameObject:
   - component: {fileID: 1897623072}
   - component: {fileID: 1897623074}
   - component: {fileID: 1897623073}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lado (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69045,7 +69187,7 @@ GameObject:
   - component: {fileID: 1912264335}
   - component: {fileID: 1912264337}
   - component: {fileID: 1912264336}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesa02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69175,7 +69317,7 @@ GameObject:
   - component: {fileID: 1927550728}
   - component: {fileID: 1927550730}
   - component: {fileID: 1927550729}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pared (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69305,7 +69447,7 @@ GameObject:
   - component: {fileID: 1928334042}
   - component: {fileID: 1928334044}
   - component: {fileID: 1928334043}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sillon2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69435,7 +69577,7 @@ GameObject:
   - component: {fileID: 1936714823}
   - component: {fileID: 1936714825}
   - component: {fileID: 1936714824}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: regadera (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69564,7 +69706,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1937489334}
   - component: {fileID: 1937489335}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ventana (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69813,7 +69955,7 @@ GameObject:
   - component: {fileID: 1947439360}
   - component: {fileID: 1947439362}
   - component: {fileID: 1947439361}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: arribarl (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70249,7 +70391,7 @@ GameObject:
   - component: {fileID: 1977915201}
   - component: {fileID: 1977915203}
   - component: {fileID: 1977915202}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: plant (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70379,7 +70521,7 @@ GameObject:
   - component: {fileID: 1991032835}
   - component: {fileID: 1991032837}
   - component: {fileID: 1991032836}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesa02 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70669,7 +70811,7 @@ GameObject:
   - component: {fileID: 1995819798}
   - component: {fileID: 1995819800}
   - component: {fileID: 1995819799}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70998,7 +71140,7 @@ GameObject:
   - component: {fileID: 2032959172}
   - component: {fileID: 2032959174}
   - component: {fileID: 2032959173}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: regadera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71217,7 +71359,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2043885932}
   - component: {fileID: 2043885933}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ventana
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71302,7 +71444,7 @@ GameObject:
   - component: {fileID: 2052811978}
   - component: {fileID: 2052811980}
   - component: {fileID: 2052811979}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pared (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71432,7 +71574,7 @@ GameObject:
   - component: {fileID: 2062647790}
   - component: {fileID: 2062647792}
   - component: {fileID: 2062647791}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71562,7 +71704,7 @@ GameObject:
   - component: {fileID: 2067624839}
   - component: {fileID: 2067624841}
   - component: {fileID: 2067624840}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: plant (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71692,7 +71834,7 @@ GameObject:
   - component: {fileID: 2083737087}
   - component: {fileID: 2083737089}
   - component: {fileID: 2083737088}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: arribarl (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71821,7 +71963,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2083893930}
   - component: {fileID: 2083893931}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ventana (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71906,7 +72048,7 @@ GameObject:
   - component: {fileID: 2091163841}
   - component: {fileID: 2091163843}
   - component: {fileID: 2091163842}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesasO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72036,7 +72178,7 @@ GameObject:
   - component: {fileID: 2099233300}
   - component: {fileID: 2099233302}
   - component: {fileID: 2099233301}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72257,7 +72399,7 @@ GameObject:
   - component: {fileID: 2110879333}
   - component: {fileID: 2110879335}
   - component: {fileID: 2110879334}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: arribarl (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72387,7 +72529,7 @@ GameObject:
   - component: {fileID: 2111010152}
   - component: {fileID: 2111010154}
   - component: {fileID: 2111010153}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lado (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72517,7 +72659,7 @@ GameObject:
   - component: {fileID: 2121040993}
   - component: {fileID: 2121040995}
   - component: {fileID: 2121040994}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Garrafon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72647,7 +72789,7 @@ GameObject:
   - component: {fileID: 2126236686}
   - component: {fileID: 2126236688}
   - component: {fileID: 2126236687}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: regadera (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72777,7 +72919,7 @@ GameObject:
   - component: {fileID: 2132801541}
   - component: {fileID: 2132801543}
   - component: {fileID: 2132801542}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: New Piskel (7)_0 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72907,7 +73049,7 @@ GameObject:
   - component: {fileID: 2136602336}
   - component: {fileID: 2136602338}
   - component: {fileID: 2136602337}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesac (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

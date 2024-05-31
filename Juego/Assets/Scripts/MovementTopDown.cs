@@ -8,6 +8,7 @@ public class MovementTopDown : MonoBehaviour
     public Joystick joystick;
     private Rigidbody2D rb2D;
     private Animator animator;
+    private WalkSound walkSound;
 
     [Header("Sprint")]
     [SerializeField] private float movementSpeedStandar = 5f;
@@ -43,6 +44,7 @@ public class MovementTopDown : MonoBehaviour
         rb2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         movementSpeed = movementSpeedStandar;
+        walkSound = GetComponentInChildren<WalkSound>();
 
         if (stamina != null)
         {
@@ -166,5 +168,10 @@ public class MovementTopDown : MonoBehaviour
         yield return new WaitForSeconds(timeBetweenSprint);
         canSprint = true;
         sprintCooldownTime = timeSprint;
+    }
+
+    private void Walk()
+    {
+        walkSound.StartAudio();
     }
 }
