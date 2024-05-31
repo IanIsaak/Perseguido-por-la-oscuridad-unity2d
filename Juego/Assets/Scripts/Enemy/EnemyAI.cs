@@ -7,9 +7,6 @@ using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class EnemyAI : MonoBehaviour
 {
-    [SerializeField] private GameObject gameOver;
-    [SerializeField] private GameObject playerUI;
-
     public Transform target;
     public float speed = 200f;
     public float nextWaypointDistance = 3f;
@@ -137,14 +134,5 @@ public class EnemyAI : MonoBehaviour
         state = State.Paralyzed;
         paralysisDuration = duration;
         paralysisTimer = duration;
-    }
-
-    void OnTriggerEnter2D(Collider2D collider)
-    {
-        if (collider.CompareTag("Player"))
-        {
-            gameOver.SetActive(true);
-            playerUI.SetActive(false);
-        }
     }
 }

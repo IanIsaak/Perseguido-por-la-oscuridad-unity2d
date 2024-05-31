@@ -267,6 +267,7 @@ GameObject:
   - component: {fileID: 31693137}
   - component: {fileID: 31693136}
   - component: {fileID: 31693140}
+  - component: {fileID: 31693141}
   m_Layer: 10
   m_Name: Enemy
   m_TagString: Untagged
@@ -329,8 +330,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e03cbcb5c37a59e4e8dfd40c1bd02b9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOver: {fileID: 145519278}
-  playerUI: {fileID: 1817500076}
   target: {fileID: 76964376}
   speed: 500
   nextWaypointDistance: 1
@@ -416,6 +415,20 @@ MonoBehaviour:
   maxUses: 3
   counterText: {fileID: 0}
   batteryAnimator: {fileID: 1399679052}
+--- !u!114 &31693141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31693134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 166c71d6f34d79f488648c6085712ced, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOver: {fileID: 145519278}
+  playerUI: {fileID: 1817500076}
 --- !u!1 &37908724
 GameObject:
   m_ObjectHideFlags: 0
@@ -873,7 +886,6 @@ GameObject:
   - component: {fileID: 76964373}
   - component: {fileID: 76964372}
   - component: {fileID: 76964377}
-  - component: {fileID: 76964378}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -900,6 +912,7 @@ MonoBehaviour:
   timeSprint: 3
   timeBetweenSprint: 6
   stamina: {fileID: 317608513}
+  gameOver: 0
 --- !u!50 &76964373
 Rigidbody2D:
   serializedVersion: 4
@@ -1061,18 +1074,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &76964378
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 76964371}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb2c9a410f9065945a095a3acffd8cf7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &84979180
 GameObject:
   m_ObjectHideFlags: 0
