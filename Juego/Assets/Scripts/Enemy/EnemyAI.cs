@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using Pathfinding;
 using Unity.VisualScripting;
+using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class EnemyAI : MonoBehaviour
 {
     [SerializeField] private GameObject gameOver;
+    [SerializeField] private GameObject playerUI;
 
     public Transform target;
     public float speed = 200f;
@@ -139,9 +141,10 @@ public class EnemyAI : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.GetComponent<MovementTopDown>() != null)
+        if (collider.CompareTag("Player"))
         {
             gameOver.SetActive(true);
+            playerUI.SetActive(false);
         }
     }
 }
