@@ -5,6 +5,12 @@ using UnityEngine;
 public class DoorAnimated : MonoBehaviour
 {
     private Animator animator;
+    private DoorSound doorSound;
+
+    private void Start()
+    {
+        doorSound = GetComponentInChildren<DoorSound>();
+    }
 
     private void Awake()
     {
@@ -17,5 +23,9 @@ public class DoorAnimated : MonoBehaviour
     public void CloseDoor()
     {
         animator.SetBool("Open", false);
+    }
+    private void DoorSound()
+    {
+        doorSound.StartAudio();
     }
 }
