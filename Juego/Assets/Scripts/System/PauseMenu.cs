@@ -4,13 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    [SerializeField] private AudioMixer audioMixer;
     [SerializeField] private GameObject pauseButton;
     [SerializeField] private GameObject pauseMenu;
-    public void ChangeVolume(float volume)
-    {
-        audioMixer.SetFloat("Volume", volume);
-    }
 
     public void Pause()
     {
