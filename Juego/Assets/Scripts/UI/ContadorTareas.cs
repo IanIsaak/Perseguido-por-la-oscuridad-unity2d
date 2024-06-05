@@ -5,6 +5,8 @@ using TMPro;
 
 public class ContadorTareas : MonoBehaviour
 {
+    [SerializeField] GameObject exitAlert;
+
     private float tareas = 0;
     private TextMeshProUGUI textTareas;
     private VictoryDoorTrigger victoryDoorTrigger; // Referencia al VictoryDoorTrigger
@@ -34,6 +36,7 @@ public class ContadorTareas : MonoBehaviour
         if (victoryDoorTrigger != null && tareas == 3)
         {
             victoryDoorTrigger.OpenVictoryDoor(); // Llama al método para abrir la puerta
+            exitAlert.SetActive(true);
         }
     }
 }
