@@ -7,26 +7,19 @@ public class PanelTask : MonoBehaviour
 {
     public TextMeshProUGUI display;
     public TextMeshProUGUI papel;
-    private VictoryDoorTrigger victoryDoorTrigger; // Referencia al VictoryDoorTrigger
+    private ContadorTareas contadorTareas;
 
     // Start is called before the first frame update
     void Start()
     {
-        // Buscar VictoryDoorTrigger en la escena
-        victoryDoorTrigger = FindObjectOfType<VictoryDoorTrigger>();
+        contadorTareas = FindObjectOfType<ContadorTareas>();
 
-        if (victoryDoorTrigger == null)
+        if (contadorTareas != null)
         {
-            Debug.LogError("No se encontró VictoryDoorTrigger en la escena.");
+            Debug.LogError("No se encontró contador de tareas en la escena");
         }
 
         GeneratePassword();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 
     public void AddNumber(string number)
@@ -59,10 +52,7 @@ public class PanelTask : MonoBehaviour
         if (display.text.Equals(papel.text))
         {
             display.text = ("Granted");
-            if (victoryDoorTrigger != null)
-            {
-                victoryDoorTrigger.OpenVictoryDoor(); // Llama al método para abrir la puerta
-            }
+            contadorTareas.SumarPuntos();
             Destroy(gameObject, 1.0f);
         }
         else
