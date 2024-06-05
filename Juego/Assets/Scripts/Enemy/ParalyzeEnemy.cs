@@ -18,6 +18,7 @@ public class ParalyzeEnemy : MonoBehaviour
     private int currentUses = 0; // Contador de usos actuales
     public TMP_Text counterText; // Texto UI para mostrar el contador
     public Animator batteryAnimator; // Referencia al componente Animator
+    public AudioSource taserSound; // Referencia al AudioSource para el sonido del taser
 
     private void Awake()
     {
@@ -71,6 +72,11 @@ public class ParalyzeEnemy : MonoBehaviour
 
                     //Overlay Logic
                     a = 0.8f;
+                    // Reproducir sonido del taser
+                    if (taserSound != null)
+                    {
+                        taserSound.Play();
+                    }
                 }
             }
         }
