@@ -40,4 +40,5 @@ public class Task : MonoBehaviour
     {
         return playerClose && !GameObject.FindWithTag("Task");
     }
+
 }

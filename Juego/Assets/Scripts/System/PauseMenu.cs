@@ -1,11 +1,16 @@
 using UnityEngine;
-using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
     [SerializeField] private GameObject pauseButton;
     [SerializeField] private GameObject pauseMenu;
+    private SceneTransition sceneTransition;
+
+    private void Start()
+    {
+        sceneTransition = FindObjectOfType<SceneTransition>(); // Encuentra el objeto SceneTransition en la escena
+    }
 
     public void Pause()
     {
@@ -29,6 +34,7 @@ public class PauseMenu : MonoBehaviour
 
     public void Quit()
     {
-        SceneManager.LoadScene("MainMenu");
+        Time.timeScale = 1f; // Asegúrate de que el tiempo vuelva a la normalidad antes de salir
+        sceneTransition.TriggerSceneChange();
     }
 }

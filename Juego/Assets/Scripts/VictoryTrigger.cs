@@ -7,7 +7,6 @@ public class VictoryTrigger : MonoBehaviour
 
     private void Start()
     {
-        // Busca el componente SceneTransition en el objeto padre
         sceneTransition = GetComponentInParent<SceneTransition>();
     }
 
