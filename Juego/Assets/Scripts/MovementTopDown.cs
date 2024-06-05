@@ -99,51 +99,55 @@ public class MovementTopDown : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Vector2 direction = Vector2.zero;
-
-        // Verificar si el joystick está habilitado
-        if (!gameOver)
+        if (isMovementActive())
         {
-            direction = joystick.Direction;
-        }
+            Vector2 direction = Vector2.zero;
 
-        rb2D.MovePosition(rb2D.position + direction * movementSpeed * Time.fixedDeltaTime);
-
-        // Inicializar valores para el Animator
-        float front = 0f, back = 0f, right = 0f, left = 0f;
-
-        // Asignar los parámetros para el Animator según la posición del joystick
-        if (direction != Vector2.zero)
-        {
-            if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
+            // Verificar si el joystick está habilitado
+            if (!gameOver)
             {
-                if (direction.x > 0) // Moviéndose a la derecha
+                direction = joystick.Direction;
+            }
+
+            rb2D.MovePosition(rb2D.position + direction * movementSpeed * Time.fixedDeltaTime);
+
+            // Inicializar valores para el Animator
+            float front = 0f, back = 0f, right = 0f, left = 0f;
+
+            // Asignar los parámetros para el Animator según la posición del joystick
+            if (direction != Vector2.zero)
+            {
+                if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
                 {
-                    right = direction.x;
+                    if (direction.x > 0) // Moviéndose a la derecha
+                    {
+                        right = direction.x;
+                    }
+                    else // Moviéndose a la izquierda
+                    {
+                        left = -direction.x;
+                    }
                 }
-                else // Moviéndose a la izquierda
+                else
                 {
-                    left = -direction.x;
+                    if (direction.y > 0) // Moviéndose enfrente
+                    {
+                        front = direction.y;
+                    }
+                    else // Moviéndose hacia atrás
+                    {
+                        back = -direction.y;
+                    }
                 }
             }
-            else
-            {
-                if (direction.y > 0) // Moviéndose enfrente
-                {
-                    front = direction.y;
-                }
-                else // Moviéndose hacia atrás
-                {
-                    back = -direction.y;
-                }
-            }
-        }
 
-        // Asignar los valores al Animator
-        animator.SetFloat("front", front);
-        animator.SetFloat("back", back);
-        animator.SetFloat("right", right);
-        animator.SetFloat("left", left);
+
+            // Asignar los valores al Animator
+            animator.SetFloat("front", front);
+            animator.SetFloat("back", back);
+            animator.SetFloat("right", right);
+            animator.SetFloat("left", left);
+        }
     }
 
     private void OnStartSprint(InputAction.CallbackContext context)
@@ -181,5 +185,9 @@ public class MovementTopDown : MonoBehaviour
     private void Walk()
     {
         walkSound.StartAudio();
+    }
+    bool isMovementActive()
+    {
+        return !GameObject.FindWithTag("Task");
     }
 }
