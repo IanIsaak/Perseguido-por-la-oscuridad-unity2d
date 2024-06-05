@@ -8,6 +8,7 @@ public class PanelTask : MonoBehaviour
 {
     public TextMeshProUGUI display;
     public TextMeshProUGUI papel;
+    public bool panelCompleted=false;
 
 
     // Start is called before the first frame update
@@ -53,6 +54,7 @@ public class PanelTask : MonoBehaviour
         {
             display.text=("Granted");
             Destroy(gameObject, 1.0f);
+            panelCompleted = true;
         }
         else
         {
